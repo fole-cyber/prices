@@ -1,0 +1,35 @@
+name: עדכון מחירים
+
+on:
+  schedule:
+    # שעון UTC (ישראל = UTC+2 בחורף, UTC+3 בקיץ)
+    - cron: "37 7,10,13 * * 0-5"   # אושר עד + יש חסד, 3 פעמים ביום (א'-ו')
+    - cron: "17 4 * * 3"           # ליפסקר + שוליק, פעם בשבוע (יום רביעי בבוקר)
+  workflow_dispatch: {}             # כפתור "Run workflow" להרצה ידנית
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: איסוף
+        run: |
+          if [ "${{ github.event.schedule }}" = "37 7,10,13 * * 0-5" ]; then
+            python collect_prices.py --skip-web
+          else
+            python collect_prices.py
+          fi
+      - name: שמירה
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "עדכון מחירים $(date -u +%F_%H%M)"
+          git push
