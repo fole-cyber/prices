@@ -1,21 +1,21 @@
 {
  "collected": "2026-11-08",
- "updated_at": "2026-11-08T10:20+02:00",
+ "updated_at": "2026-11-08T13:13+02:00",
  "stores": {
   "osherad_lod": {
-   "updated": "2026-11-08T10:20+02:00",
+   "updated": "2026-11-08T13:13+02:00",
    "items_in_file": 6134,
-   "deals_in_file": 2939,
+   "deals_in_file": 2944,
    "matched_list": 990
   },
   "osherad_kiryat_ono": {
-   "updated": "2026-11-08T10:20+02:00",
-   "items_in_file": 6353,
-   "deals_in_file": 2896,
+   "updated": "2026-11-08T13:13+02:00",
+   "items_in_file": 6354,
+   "deals_in_file": 2936,
    "matched_list": 1010
   },
   "yeshchesed": {
-   "updated": "2026-11-08T10:20+02:00",
+   "updated": "2026-11-08T13:13+02:00",
    "items_in_file": 7769,
    "deals_in_file": 7722,
    "matched_list": 1170
@@ -2292,11 +2292,21 @@
    "prices": {
     "osherad_lod": {
      "price": 12.9,
-     "deal": null
+     "deal": {
+      "price": 10.0,
+      "terms": "ריבת חלב  מיה  2 ב 20",
+      "min_qty": 2,
+      "until": "2026-12-12"
+     }
     },
     "osherad_kiryat_ono": {
      "price": 12.9,
-     "deal": null
+     "deal": {
+      "price": 10.0,
+      "terms": "ריבת חלב  מיה  2 ב 20",
+      "min_qty": 2,
+      "until": "2026-12-12"
+     }
     },
     "yeshchesed": {
      "price": 12.9,
@@ -5384,7 +5394,7 @@
    "category": "עגבניות",
    "prices": {
     "osherad_lod": {
-     "price": 9.9,
+     "price": 7.9,
      "deal": {
       "price": 7.9,
       "terms": "עגבניה 7.9 מוגבל 3 ק ג",
@@ -5511,8 +5521,14 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 23.9,
-     "deal": null
+     "price": 11.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.693,
+      "name_in_store": "עגבניות שרי מיוחדים",
+      "review": true
+     }
     },
     "yeshchesed": {
      "price": 9.9,
@@ -5543,12 +5559,12 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 11.9,
+     "price": 23.9,
      "deal": null,
      "match": {
       "by": "name",
-      "score": 0.574,
-      "name_in_store": "עגבניות שרי מיוחדים",
+      "score": 0.693,
+      "name_in_store": "עגבניות שרי",
       "review": true
      }
     },
@@ -12374,33 +12390,6 @@
    }
   },
   {
-   "barcode": "7290123630267",
-   "name": "מארז עוגיות אוראו בט",
-   "unit": "528 גרם",
-   "brand": "מונדליז",
-   "category": "אורז",
-   "prices": {
-    "osherad_lod": {
-     "price": 29.9,
-     "deal": {
-      "price": 17.9,
-      "terms": "1/3 עוגיות  אוראו    17.9 מוג 2",
-      "min_qty": 1,
-      "until": "2026-12-05"
-     }
-    },
-    "osherad_kiryat_ono": {
-     "price": 29.9,
-     "deal": {
-      "price": 22.5,
-      "terms": "עוגיות  אוראו   21/3 ב 45",
-      "min_qty": 2,
-      "until": "2026-12-12"
-     }
-    }
-   }
-  },
-  {
    "barcode": "7290123630281",
    "name": "מארז עוגיות אוראו בט",
    "unit": "462 גרם",
@@ -12423,6 +12412,33 @@
       "by": "name",
       "score": 0.72,
       "name_in_store": "מארז עוגיות אוראו דא"
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290123630267",
+   "name": "מארז עוגיות אוראו בט",
+   "unit": "528 גרם",
+   "brand": "מונדליז",
+   "category": "אורז",
+   "prices": {
+    "osherad_lod": {
+     "price": 29.9,
+     "deal": {
+      "price": 17.9,
+      "terms": "1/3 עוגיות  אוראו    17.9 מוג 2",
+      "min_qty": 1,
+      "until": "2026-12-05"
+     }
+    },
+    "osherad_kiryat_ono": {
+     "price": 29.9,
+     "deal": {
+      "price": 22.5,
+      "terms": "עוגיות  אוראו   21/3 ב 45",
+      "min_qty": 2,
+      "until": "2026-12-12"
      }
     }
    }
@@ -20499,7 +20515,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 29.9,
+     "price": 49.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
