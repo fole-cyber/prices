@@ -138,6 +138,21 @@ def parse_promo_file(text, today):
     return deals
 
 
+def get_retry(session, url, method="get", tries=3, timeout=120, **kw):
+    """בקשה עם עד 3 ניסיונות (שרתי המחירים לפעמים איטיים)."""
+    last = None
+    for i in range(tries):
+        try:
+            r = getattr(session, method)(url, timeout=timeout, **kw)
+            r.raise_for_status()
+            return r
+        except Exception as e:
+            last = e
+            log(f"  ניסיון {i + 1} נכשל: {e}")
+            time.sleep(10 * (i + 1))
+    raise last
+
+
 # ---------------------------------------------------------------- אושר עד
 def fetch_osher_ad(today_compact):
     base = "https://url.publishedprices.co.il"
@@ -162,7 +177,7 @@ def fetch_osher_ad(today_compact):
                 raise RuntimeError(f"Osher Ad: no {kind} file for branch {branch}")
             latest = names[-1]
             log(f"  אושר עד {branch}: {latest}")
-            files[kind] = decode_bytes(s.get(base + "/file/d/" + latest, timeout=180).content)
+            files[kind] = decode_bytes(get_retry(s, base + "/file/d/" + latest, timeout=180).content)
         result[key] = files
     return result
 
@@ -176,13 +191,13 @@ def fetch_shufersal():
     for store, key in SHUFERSAL_STORES.items():
         files = {}
         for kind, cat in (("PriceFull", 2), ("PromoFull", 4)):
-            html = s.get(f"{base}/FileObject/UpdateCategory?catID={cat}&storeId={store}", timeout=60).text
+            html = get_retry(s, f"{base}/FileObject/UpdateCategory?catID={cat}&storeId={store}").text
             links = re.findall(r'href="(https://[^"]+\.gz[^"]*)"', html)
             if not links:
                 raise RuntimeError(f"Shufersal: no {kind} for store {store}")
             url = links[0].replace("&amp;", "&")
             log(f"  יש חסד {store}: {kind}")
-            files[kind] = decode_bytes(s.get(url, timeout=180).content)
+            files[kind] = decode_bytes(get_retry(s, url, timeout=180).content)
         result[key] = files
     return result
 
@@ -387,6 +402,27 @@ def write_full_catalog(full, status, now, today):
         log("קטלוג מלא: אין נתונים חדשים, לא נכתב")
         return
     merged = {}
+    path = os.path.join(OUT_DIR, "catalog-full.json")
+    # חנות שנכשלה הפעם - שומרים את הנתונים הקודמים שלה
+    if os.path.exists(path):
+        try:
+            prev = json.load(open(path, encoding="utf-8"))
+            for st in ("osherad_lod", "osherad_kiryat_ono", "yeshchesed"):
+                if st in full:
+                    continue
+                kept = {}
+                for p in prev.get("products", []):
+                    if st in p.get("prices", {}):
+                        code = p.get("barcode") or p.get("local_code")
+                        kept[code] = {"name": p["name"], "unit": p.get("unit"), "brand": p.get("brand"),
+                                      "price": p["prices"][st]["price"], "deal": p["prices"][st].get("deal"),
+                                      "internal": bool(p.get("local_code"))}
+                if kept:
+                    full[st] = kept
+                    status[st] = prev.get("stores", {}).get(st, {})
+                    log(f"קטלוג מלא: {st} לא עודכן הפעם - נשמרו {len(kept)} מוצרים מהריצה הקודמת")
+        except Exception as e:
+            log(f"קטלוג מלא: לא הצלחתי לקרוא קובץ קודם ({e})")
     for store, items in full.items():
         for code, it in items.items():
             # קודים פנימיים או קצרים הם של החנות בלבד - לא ממזגים אותם בין רשתות
@@ -403,7 +439,6 @@ def write_full_catalog(full, status, now, today):
     products = sorted(merged.values(), key=lambda p: (-len(p["prices"]), p["name"] or ""))
     out = {"collected": today, "updated_at": now.isoformat(timespec="minutes"),
            "stores": {k: v for k, v in status.items() if k in full}, "products": products}
-    path = os.path.join(OUT_DIR, "catalog-full.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
     multi = sum(1 for p in products if len(p["prices"]) > 1)
