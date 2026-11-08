@@ -1,0 +1,337 @@
+[
+ {
+  "item": "ביצים (תבנית 30)",
+  "barcode": null,
+  "name": "ביצים 30 במגש לארג`",
+  "unit": "30 יחידה",
+  "per_kg": false,
+  "match": "similar",
+  "lipsker": {
+   "price": 36.35,
+   "deal": null,
+   "name": "ביצים 30 במגש לארג`",
+   "unit": "30 יחידה"
+  },
+  "sholik": {
+   "price": 36.35,
+   "deal": null,
+   "name": "תבנית 30 ביצים L",
+   "unit": "30 יח'"
+  }
+ },
+ {
+  "item": "מושט",
+  "barcode": null,
+  "name": "פילה אמנון מושט שקיל MF",
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "match": "similar",
+  "lipsker": {
+   "price": 29.9,
+   "deal": {
+    "price": 14.9,
+    "min_qty": 0.001,
+    "terms": "במבצע ₪14.90 לק\"ג",
+    "until": "2026-12-01"
+   },
+   "name": "פילה אמנון מושט שקיל MF",
+   "unit": "ק\"ג (שקיל)"
+  },
+  "sholik": {
+   "price": 45.9,
+   "deal": null,
+   "name": "פילה מושט פס עור בד\"ץ 5-9 בלדי",
+   "unit": "ק\"ג (שקיל)"
+  }
+ },
+ {
+  "item": "עגבניות",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "פטריות",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "חצילים",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "מלפפונים",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "חסה",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "בצל לבן",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "בצל סגול",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "פלפל חריף",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "פלפלים",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "פטרוזיליה",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "בטטה",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "ברוקולי/כרובית",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "כרוב",
+  "barcode": null,
+  "name": null,
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "lipsker": null,
+  "sholik": null,
+  "note": "לא נמכר באתר לפי ק\"ג (יש רק מוצרים ארוזים/קפואים/שימורים)"
+ },
+ {
+  "item": "שישיית מים",
+  "barcode": "7290019056973",
+  "name": "מי עדן שישייה",
+  "unit": "1.5 ליטר",
+  "per_kg": false,
+  "match": "similar",
+  "lipsker": {
+   "price": 16.9,
+   "deal": null,
+   "name": "מי עדן שישייה",
+   "unit": "1.5 ליטר"
+  },
+  "sholik": {
+   "price": 17,
+   "deal": null,
+   "name": "שישיה מי עדן 1.5 ל'",
+   "unit": "1.5 ליטר"
+  }
+ },
+ {
+  "item": "עוגיות",
+  "barcode": "7290000313160",
+  "name": "עוגיות זהבה שוקולד",
+  "unit": "250 גרם",
+  "per_kg": false,
+  "match": "barcode",
+  "lipsker": {
+   "price": 9.9,
+   "deal": null,
+   "name": "עוגיות זהבה שוקולד",
+   "unit": "250 גרם"
+  },
+  "sholik": {
+   "price": 11.9,
+   "deal": {
+    "price": 10,
+    "min_qty": 2,
+    "terms": "2 ב-₪20",
+    "until": "2026-11-30"
+   },
+   "name": "אסם עוגיות שוקולד זהבה גביע 12*250גרם",
+   "unit": "250 גרם"
+  }
+ },
+ {
+  "item": "סלמון",
+  "barcode": "7290004645434",
+  "name": "מנות סלמון ללא עור רוזנס פיש",
+  "unit": "ק\"ג",
+  "per_kg": true,
+  "match": "barcode",
+  "lipsker": {
+   "price": 115,
+   "deal": null,
+   "name": "מנות סלמון ללא עור רוזנס פיש",
+   "unit": "ק\"ג (שקיל)"
+  },
+  "sholik": {
+   "price": 111.9,
+   "deal": null,
+   "name": "פילה סלמון פרוס ללא עור (2 מנות)",
+   "unit": "ק\"ג (שקיל)"
+  }
+ },
+ {
+  "item": "חומץ",
+  "barcode": "7290000272726",
+  "name": "חומץ טבעי 1 ליטר עסיס",
+  "unit": "1 ליטר",
+  "per_kg": false,
+  "match": "similar",
+  "lipsker": {
+   "price": 9.6,
+   "deal": null,
+   "name": "חומץ טבעי 1 ליטר עסיס",
+   "unit": "1 ליטר"
+  },
+  "sholik": {
+   "price": 9.5,
+   "deal": null,
+   "name": "עסיס חומץ טבעי 5% 12*1ליטר חדש",
+   "unit": "1 ליטר"
+  }
+ },
+ {
+  "item": "ריצפז",
+  "barcode": "7290108352450",
+  "name": "רצפז פ הום בלו 2 ליטר",
+  "unit": "2 ליטר",
+  "per_kg": false,
+  "match": "barcode",
+  "lipsker": {
+   "price": 21.9,
+   "deal": null,
+   "name": "רצפז פ הום בלו 2 ליטר",
+   "unit": "2 ליטר"
+  },
+  "sholik": {
+   "price": 27.9,
+   "deal": null,
+   "name": "ריצפז",
+   "unit": "2 ליטר"
+  }
+ },
+ {
+  "item": "דפי מרכך למייבש",
+  "barcode": "7290116531762",
+  "name": "דפים למייבש ורוד בדין",
+  "unit": "40 יח'",
+  "per_kg": false,
+  "match": null,
+  "lipsker": {
+   "price": 19.9,
+   "deal": null,
+   "name": "דפים למייבש ורוד בדין",
+   "unit": "40 יח'"
+  },
+  "sholik": null
+ },
+ {
+  "item": "סבון ידיים",
+  "barcode": "7290112498267",
+  "name": "סבון ידיים פינוק כחול 950 מ\"ל",
+  "unit": "950 מ\"ל",
+  "per_kg": false,
+  "match": "similar",
+  "lipsker": {
+   "price": 12.9,
+   "deal": null,
+   "name": "סבון ידיים פינוק כחול 950 מ\"ל",
+   "unit": "950 מ\"ל"
+  },
+  "sholik": {
+   "price": 15.9,
+   "deal": null,
+   "name": "פינוק סבון ידיים לבנדר 950 מל",
+   "unit": "950 מ\"ל"
+  }
+ },
+ {
+  "item": "פדים להנקה",
+  "barcode": null,
+  "name": "רפידות הנקה 60 יחי` אריסטוקרט",
+  "unit": "60 יחידה",
+  "per_kg": false,
+  "match": "similar",
+  "lipsker": {
+   "price": 22.9,
+   "deal": null,
+   "name": "רפידות הנקה 60 יחי` אריסטוקרט",
+   "unit": "60 יחידה"
+  },
+  "sholik": {
+   "price": 11,
+   "deal": null,
+   "name": "רפידות הנקה",
+   "unit": "30 יח'"
+  }
+ }
+]
