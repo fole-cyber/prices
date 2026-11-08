@@ -84,6 +84,7 @@ def parse_price_file(text):
         items[code] = {
             "barcode": code,
             "name": child(it, "ItemName", "ItemNm"),
+            "brand": (lambda b: None if b in ("", "לא ידוע") else b)(child(it, "ManufacturerName", "ManufactureName")),
             "unit": unit or None,
             "price": price,
             "internal": child(it, "ItemType") == "0",  # קוד פנימי של החנות
@@ -293,6 +294,7 @@ def build(skip_web=False):
     terms = [l.strip() for l in open(os.path.join(HERE, "shopping_list.txt"), encoding="utf-8") if l.strip() and not l.startswith("#")]
     store_rows = {}   # store -> list of {name, unit, price, deal, barcode, term}
     status = {}
+    full = {}         # store -> {barcode: item+deal}  (כל המוצרים, לקטלוג המלא)
 
     def official(fetcher, label):
         try:
@@ -303,6 +305,7 @@ def build(skip_web=False):
         for key, files in data.items():
             prices = parse_price_file(files["PriceFull"])
             deals = parse_promo_file(files["PromoFull"], today)
+            full[key] = {code: {**it, "deal": deals.get(code)} for code, it in prices.items()}
             rows = []
             for code, it in prices.items():
                 hit = next((t for t in terms if term_hit(t, it["name"])), None)
@@ -361,11 +364,13 @@ def build(skip_web=False):
                     best["_barcodes"].add(r["barcode"])
                     best["barcode"] = best["barcode"] or r["barcode"]
             else:
-                products.append({"barcode": r.get("barcode"), "name": r["name"], "unit": r.get("unit"), "category": r["term"],
+                products.append({"barcode": r.get("barcode"), "name": r["name"], "unit": r.get("unit"), "brand": r.get("brand"), "category": r["term"],
                                  "prices": {store: entry}, "_barcodes": {r["barcode"]} if r.get("barcode") else set()})
     for p in products:
         p.pop("_barcodes")
     products.sort(key=lambda p: (-len(p["prices"]), p["category"], p["name"]))
+
+    write_full_catalog(full, status, now, today)
 
     out = {"collected": today, "updated_at": now.isoformat(timespec="minutes"), "stores": status, "products": products}
     path = os.path.join(OUT_DIR, "catalog-kfar-chabad.json")
@@ -374,6 +379,35 @@ def build(skip_web=False):
     log(f"נשמר {path}: {len(products)} מוצרים, {multi} מופיעים ביותר מחנות אחת")
     for k, v in status.items():
         log(f"  {k}: {v}")
+
+
+def write_full_catalog(full, status, now, today):
+    """data/catalog-full.json: כל המוצרים של החנויות הרשמיות, ממוזגים לפי ברקוד בלבד."""
+    if not full:
+        log("קטלוג מלא: אין נתונים חדשים, לא נכתב")
+        return
+    merged = {}
+    for store, items in full.items():
+        for code, it in items.items():
+            # קודים פנימיים או קצרים הם של החנות בלבד - לא ממזגים אותם בין רשתות
+            key = code if (len(code) >= 8 and not it.get("internal")) else f"{store}:{code}"
+            e = merged.get(key)
+            if e is None:
+                e = merged[key] = {"barcode": code if ":" not in key else None, "name": it["name"], "unit": it.get("unit"),
+                                   "brand": it.get("brand"), "prices": {}}
+                if ":" in key:
+                    e["local_code"] = code
+            e["brand"] = e["brand"] or it.get("brand")
+            e["unit"] = e["unit"] or it.get("unit")
+            e["prices"][store] = {"price": it["price"], "deal": it.get("deal")}
+    products = sorted(merged.values(), key=lambda p: (-len(p["prices"]), p["name"] or ""))
+    out = {"collected": today, "updated_at": now.isoformat(timespec="minutes"),
+           "stores": {k: v for k, v in status.items() if k in full}, "products": products}
+    path = os.path.join(OUT_DIR, "catalog-full.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
+    multi = sum(1 for p in products if len(p["prices"]) > 1)
+    log(f"נשמר {path}: {len(products)} מוצרים, {multi} ביותר מחנות אחת, {os.path.getsize(path)//1024} KB")
 
 
 if __name__ == "__main__":
