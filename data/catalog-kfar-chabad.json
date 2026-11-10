@@ -1,21 +1,21 @@
 {
  "collected": "2026-11-10",
- "updated_at": "2026-11-10T13:19+02:00",
+ "updated_at": "2026-11-10T16:28+02:00",
  "stores": {
   "osherad_lod": {
-   "updated": "2026-11-10T13:19+02:00",
-   "items_in_file": 6108,
-   "deals_in_file": 3056,
-   "matched_list": 987
+   "updated": "2026-11-10T16:28+02:00",
+   "items_in_file": 6115,
+   "deals_in_file": 3057,
+   "matched_list": 988
   },
   "osherad_kiryat_ono": {
-   "updated": "2026-11-10T13:19+02:00",
+   "updated": "2026-11-10T16:28+02:00",
    "items_in_file": 6319,
    "deals_in_file": 3057,
    "matched_list": 1009
   },
   "yeshchesed": {
-   "updated": "2026-11-10T13:19+02:00",
+   "updated": "2026-11-10T16:28+02:00",
    "items_in_file": 7777,
    "deals_in_file": 7762,
    "matched_list": 1173
@@ -20012,7 +20012,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 15.9,
+     "price": 24.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -20937,7 +20937,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 39.9,
+     "price": 29.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -20971,7 +20971,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 39.9,
+     "price": 49.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -33910,6 +33910,19 @@
    "prices": {
     "osherad_kiryat_ono": {
      "price": 11.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "6911316003712",
+   "name": "סוכריות בטעם מנטה לל",
+   "unit": "90 גרם",
+   "brand": "פרפטי ואן מלה ברדה",
+   "category": "סוכר",
+   "prices": {
+    "osherad_lod": {
+     "price": 17.9,
      "deal": null
     }
    }
