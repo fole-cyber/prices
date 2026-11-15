@@ -1,21 +1,21 @@
 {
  "collected": "2026-11-15",
- "updated_at": "2026-11-15T10:24+02:00",
+ "updated_at": "2026-11-15T13:13+02:00",
  "stores": {
   "osherad_lod": {
-   "updated": "2026-11-15T10:24+02:00",
-   "items_in_file": 6070,
-   "deals_in_file": 3136,
-   "matched_list": 982
+   "updated": "2026-11-15T13:13+02:00",
+   "items_in_file": 6071,
+   "deals_in_file": 3157,
+   "matched_list": 983
   },
   "osherad_kiryat_ono": {
-   "updated": "2026-11-15T10:24+02:00",
+   "updated": "2026-11-15T13:13+02:00",
    "items_in_file": 6231,
-   "deals_in_file": 3156,
+   "deals_in_file": 3173,
    "matched_list": 988
   },
   "yeshchesed": {
-   "updated": "2026-11-15T10:24+02:00",
+   "updated": "2026-11-15T13:13+02:00",
    "items_in_file": 7762,
    "deals_in_file": 27737,
    "matched_list": 1170
@@ -394,11 +394,21 @@
    "prices": {
     "osherad_lod": {
      "price": 7.9,
-     "deal": null
+     "deal": {
+      "price": 3.33,
+      "terms": "אורז פרסי  הנמל  1 ק ג 3 ב 10",
+      "min_qty": 3,
+      "until": "2026-11-20"
+     }
     },
     "osherad_kiryat_ono": {
      "price": 7.9,
-     "deal": null
+     "deal": {
+      "price": 3.33,
+      "terms": "אורז פרסי  הנמל  1 ק ג 3 ב 10",
+      "min_qty": 3,
+      "until": "2026-11-20"
+     }
     },
     "yeshchesed": {
      "price": 9.9,
@@ -3197,11 +3207,21 @@
    "prices": {
     "osherad_lod": {
      "price": 5.9,
-     "deal": null
+     "deal": {
+      "price": 3.0,
+      "terms": "מולר סימפלי  טרה  6 ב 18 מוג 2",
+      "min_qty": 6,
+      "until": "2026-11-20"
+     }
     },
     "osherad_kiryat_ono": {
      "price": 5.9,
-     "deal": null
+     "deal": {
+      "price": 3.0,
+      "terms": "מולר סימפלי  טרה  6 ב 18 מוג 2",
+      "min_qty": 6,
+      "until": "2026-11-20"
+     }
     },
     "yeshchesed": {
      "price": 5.9,
@@ -3224,11 +3244,21 @@
    "prices": {
     "osherad_lod": {
      "price": 5.9,
-     "deal": null
+     "deal": {
+      "price": 3.0,
+      "terms": "מולר סימפלי  טרה  6 ב 18 מוג 2",
+      "min_qty": 6,
+      "until": "2026-11-20"
+     }
     },
     "osherad_kiryat_ono": {
      "price": 5.9,
-     "deal": null
+     "deal": {
+      "price": 3.0,
+      "terms": "מולר סימפלי  טרה  6 ב 18 מוג 2",
+      "min_qty": 6,
+      "until": "2026-11-20"
+     }
     },
     "yeshchesed": {
      "price": 5.9,
@@ -4769,19 +4799,19 @@
     "osherad_lod": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     },
     "osherad_kiryat_ono": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     },
     "yeshchesed": {
@@ -5216,8 +5246,14 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 23.9,
-     "deal": null
+     "price": 11.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.693,
+      "name_in_store": "עגבניות שרי מיוחדים",
+      "review": true
+     }
     },
     "yeshchesed": {
      "price": 9.9,
@@ -5248,12 +5284,12 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 11.9,
+     "price": 23.9,
      "deal": null,
      "match": {
       "by": "name",
-      "score": 0.574,
-      "name_in_store": "עגבניות שרי מיוחדים",
+      "score": 0.693,
+      "name_in_store": "עגבניות שרי",
       "review": true
      }
     },
@@ -7101,10 +7137,10 @@
     "osherad_kiryat_ono": {
      "price": 25.9,
      "deal": {
-      "price": 23.0,
-      "terms": "נקניקיות עוף  טירת צבי   2 ב 46",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 13.9,
+      "terms": "נקניקיות עוף  טירת צבי  13.90 מוג 2",
+      "min_qty": 1,
+      "until": "2026-11-20"
      },
      "match": {
       "by": "name",
@@ -7162,10 +7198,10 @@
     "osherad_lod": {
      "price": 25.9,
      "deal": {
-      "price": 23.0,
-      "terms": "נקניקיות עוף  טירת צבי   2 ב 46",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 13.9,
+      "terms": "נקניקיות עוף  טירת צבי  13.90 מוג 2",
+      "min_qty": 1,
+      "until": "2026-11-20"
      }
     },
     "osherad_kiryat_ono": {
@@ -8227,19 +8263,19 @@
     "osherad_lod": {
      "price": 46.9,
      "deal": {
-      "price": 35.0,
-      "terms": "שניצל עוף צונגו עטרה  עוף טוב  2 ב 70",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 23.9,
+      "terms": "שניצל עוף צונגו עטרה  עוף טוב  23.90 מו3",
+      "min_qty": 1,
+      "until": "2026-11-21"
      }
     },
     "osherad_kiryat_ono": {
      "price": 46.9,
      "deal": {
-      "price": 35.0,
-      "terms": "שניצל עוף צונגו עטרה  עוף טוב  2 ב 70",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 23.9,
+      "terms": "שניצל עוף צונגו עטרה  עוף טוב  23.90 מו3",
+      "min_qty": 1,
+      "until": "2026-11-21"
      }
     },
     "yeshchesed": {
@@ -10780,12 +10816,12 @@
      "deal": null
     },
     "yeshchesed": {
-     "price": 24.9,
+     "price": 19.9,
      "deal": {
-      "price": 24.9,
-      "terms": "ע. סיבוס קופון 50ש\"ח מתנה",
+      "price": 9.9,
+      "terms": "ישח 9.90 שמן זית למאור 1 ליט-מות150",
       "min_qty": 1,
-      "until": "2031-01-01",
+      "until": "2026-12-12",
       "club_only": true
      },
      "match": {
@@ -12133,33 +12169,6 @@
    }
   },
   {
-   "barcode": "7290123630267",
-   "name": "מארז עוגיות אוראו בט",
-   "unit": "528 גרם",
-   "brand": "מונדליז",
-   "category": "אורז",
-   "prices": {
-    "osherad_lod": {
-     "price": 29.9,
-     "deal": {
-      "price": 17.9,
-      "terms": "1/3 עוגיות  אוראו    17.9 מוג 2",
-      "min_qty": 1,
-      "until": "2026-12-05"
-     }
-    },
-    "osherad_kiryat_ono": {
-     "price": 29.9,
-     "deal": {
-      "price": 22.5,
-      "terms": "עוגיות  אוראו   21/3 ב 45",
-      "min_qty": 2,
-      "until": "2026-12-12"
-     }
-    }
-   }
-  },
-  {
    "barcode": "7290123630281",
    "name": "מארז עוגיות אוראו בט",
    "unit": "462 גרם",
@@ -12182,6 +12191,33 @@
       "by": "name",
       "score": 0.72,
       "name_in_store": "מארז עוגיות אוראו דא"
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290123630267",
+   "name": "מארז עוגיות אוראו בט",
+   "unit": "528 גרם",
+   "brand": "מונדליז",
+   "category": "אורז",
+   "prices": {
+    "osherad_lod": {
+     "price": 29.9,
+     "deal": {
+      "price": 17.9,
+      "terms": "1/3 עוגיות  אוראו    17.9 מוג 2",
+      "min_qty": 1,
+      "until": "2026-12-05"
+     }
+    },
+    "osherad_kiryat_ono": {
+     "price": 29.9,
+     "deal": {
+      "price": 22.5,
+      "terms": "עוגיות  אוראו   21/3 ב 45",
+      "min_qty": 2,
+      "until": "2026-12-12"
      }
     }
    }
@@ -12928,7 +12964,7 @@
    "category": "בננות",
    "prices": {
     "osherad_lod": {
-     "price": 6.9,
+     "price": 7.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -18212,19 +18248,19 @@
     "osherad_lod": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     },
     "osherad_kiryat_ono": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     }
    }
@@ -18239,19 +18275,19 @@
     "osherad_lod": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     },
     "osherad_kiryat_ono": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     }
    }
@@ -18317,19 +18353,19 @@
     "osherad_lod": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     },
     "osherad_kiryat_ono": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     }
    }
@@ -20101,19 +20137,19 @@
     "osherad_lod": {
      "price": 25.9,
      "deal": {
-      "price": 23.0,
-      "terms": "נקניקיות עוף  טירת צבי   2 ב 46",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 13.9,
+      "terms": "נקניקיות עוף  טירת צבי  13.90 מוג 2",
+      "min_qty": 1,
+      "until": "2026-11-20"
      }
     },
     "osherad_kiryat_ono": {
      "price": 25.9,
      "deal": {
-      "price": 23.0,
-      "terms": "נקניקיות עוף  טירת צבי   2 ב 46",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 13.9,
+      "terms": "נקניקיות עוף  טירת צבי  13.90 מוג 2",
+      "min_qty": 1,
+      "until": "2026-11-20"
      }
     }
    }
@@ -20920,19 +20956,19 @@
     "osherad_lod": {
      "price": 46.9,
      "deal": {
-      "price": 35.0,
-      "terms": "שניצל עוף צונגו עטרה  עוף טוב  2 ב 70",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 23.9,
+      "terms": "שניצל עוף צונגו עטרה  עוף טוב  23.90 מו3",
+      "min_qty": 1,
+      "until": "2026-11-21"
      }
     },
     "osherad_kiryat_ono": {
      "price": 46.9,
      "deal": {
-      "price": 35.0,
-      "terms": "שניצל עוף צונגו עטרה  עוף טוב  2 ב 70",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 23.9,
+      "terms": "שניצל עוף צונגו עטרה  עוף טוב  23.90 מו3",
+      "min_qty": 1,
+      "until": "2026-11-21"
      }
     }
    }
@@ -20947,19 +20983,19 @@
     "osherad_lod": {
      "price": 46.9,
      "deal": {
-      "price": 35.0,
-      "terms": "שניצל עוף צונגו עטרה  עוף טוב  2 ב 70",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 23.9,
+      "terms": "שניצל עוף צונגו עטרה  עוף טוב  23.90 מו3",
+      "min_qty": 1,
+      "until": "2026-11-21"
      }
     },
     "osherad_kiryat_ono": {
      "price": 46.9,
      "deal": {
-      "price": 35.0,
-      "terms": "שניצל עוף צונגו עטרה  עוף טוב  2 ב 70",
-      "min_qty": 2,
-      "until": "2026-12-05"
+      "price": 23.9,
+      "terms": "שניצל עוף צונגו עטרה  עוף טוב  23.90 מו3",
+      "min_qty": 1,
+      "until": "2026-11-21"
      }
     }
    }
@@ -23471,6 +23507,35 @@
       "by": "name",
       "score": 0.577,
       "name_in_store": "שמן זית כתית ספרדי ט",
+      "review": true
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290017068718",
+   "name": "שמן זית למאור הנרות",
+   "unit": "1",
+   "brand": "mgasa envasado",
+   "category": "שמן",
+   "prices": {
+    "osherad_lod": {
+     "price": 14.9,
+     "deal": null
+    },
+    "yeshchesed": {
+     "price": 24.9,
+     "deal": {
+      "price": 24.9,
+      "terms": "ע. סיבוס קופון 50ש\"ח מתנה",
+      "min_qty": 1,
+      "until": "2031-01-01",
+      "club_only": true
+     },
+     "match": {
+      "by": "name",
+      "score": 0.574,
+      "name_in_store": "שמן זית למאור 1 ליטר",
       "review": true
      }
     }
@@ -34491,10 +34556,10 @@
     "osherad_lod": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     }
    }
@@ -34509,10 +34574,10 @@
     "osherad_lod": {
      "price": 10.9,
      "deal": {
-      "price": 9.0,
-      "terms": "סוכריות  מנטוס  2 ב 18",
+      "price": 6.0,
+      "terms": "סוכריות  מנטוס  2 ב 12",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-11-20"
      }
     }
    }
@@ -35478,7 +35543,12 @@
    "prices": {
     "osherad_kiryat_ono": {
      "price": 14.9,
-     "deal": null
+     "deal": {
+      "price": 12.5,
+      "terms": "ממרח פסטו קלאסי  פרסקו   2 ב 25",
+      "min_qty": 2,
+      "until": "2026-12-12"
+     }
     }
    }
   },
@@ -39974,25 +40044,6 @@
     "osherad_kiryat_ono": {
      "price": 29.9,
      "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "7290013677648",
-   "name": "שמן זית למאור 1 ליטר",
-   "unit": "1 ליטר",
-   "brand": "מיה",
-   "category": "שמן",
-   "prices": {
-    "yeshchesed": {
-     "price": 19.9,
-     "deal": {
-      "price": 9.9,
-      "terms": "ישח 9.90 שמן זית למאור 1 ליט-מות150",
-      "min_qty": 1,
-      "until": "2026-12-12",
-      "club_only": true
-     }
     }
    }
   },
