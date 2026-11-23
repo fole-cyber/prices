@@ -1,24 +1,24 @@
 {
- "collected": "2026-11-22",
- "updated_at": "2026-11-22T17:35+02:00",
+ "collected": "2026-11-23",
+ "updated_at": "2026-11-23T21:25+02:00",
  "stores": {
   "osherad_lod": {
-   "updated": "2026-11-22T17:35+02:00",
-   "items_in_file": 6103,
-   "deals_in_file": 3269,
-   "matched_list": 999
+   "updated": "2026-11-23T21:25+02:00",
+   "items_in_file": 6097,
+   "deals_in_file": 3282,
+   "matched_list": 997
   },
   "osherad_kiryat_ono": {
-   "updated": "2026-11-22T17:35+02:00",
-   "items_in_file": 6143,
-   "deals_in_file": 3249,
-   "matched_list": 971
+   "updated": "2026-11-23T21:25+02:00",
+   "items_in_file": 6147,
+   "deals_in_file": 3253,
+   "matched_list": 972
   },
   "yeshchesed": {
-   "updated": "2026-11-22T17:35+02:00",
-   "items_in_file": 7825,
-   "deals_in_file": 2325,
-   "matched_list": 1175
+   "updated": "2026-11-23T21:25+02:00",
+   "items_in_file": 7832,
+   "deals_in_file": 2330,
+   "matched_list": 1176
   }
  },
  "products": [
@@ -61,10 +61,10 @@
     "yeshchesed": {
      "price": 14.8,
      "deal": {
-      "price": 13.0,
-      "terms": "ישח 2ב26 אורז בסמטי סלקטד 1 ק\"ג",
+      "price": 12.5,
+      "terms": "ישח 2ב25 אורז בסמטי סלקטד 1 ק\"ג",
       "min_qty": 2,
-      "until": "2026-12-12",
+      "until": "2026-11-23",
       "club_only": true
      },
      "match": {
@@ -114,7 +114,13 @@
     },
     "yeshchesed": {
      "price": 22.9,
-     "deal": null,
+     "deal": {
+      "price": 17.9,
+      "terms": "ישח 17.90  פסטה 454 גרם",
+      "min_qty": 1,
+      "until": "2026-12-12",
+      "club_only": true
+     },
      "match": {
       "by": "name",
       "score": 0.562,
@@ -789,87 +795,6 @@
    }
   },
   {
-   "barcode": "7290108075625",
-   "name": "ביצי שוקולד עם הפתעה",
-   "unit": "60 גרם",
-   "brand": "לויג' זאיני",
-   "category": "ביצים",
-   "prices": {
-    "osherad_lod": {
-     "price": 14.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 14.9,
-     "deal": null
-    },
-    "yeshchesed": {
-     "price": 14.9,
-     "deal": {
-      "price": 12.5,
-      "terms": "ישח 2ב25 שלישיית ביצי שוקולד",
-      "min_qty": 2,
-      "until": "2026-12-12",
-      "club_only": true
-     }
-    }
-   }
-  },
-  {
-   "barcode": "7290112706362",
-   "name": "ביצי שוקולד עם הפתעה",
-   "unit": "60 גרם",
-   "brand": "לויג' זאיני",
-   "category": "ביצים",
-   "prices": {
-    "osherad_lod": {
-     "price": 14.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 14.9,
-     "deal": null
-    },
-    "yeshchesed": {
-     "price": 14.9,
-     "deal": {
-      "price": 12.5,
-      "terms": "ישח 2ב25 שלישיית ביצי שוקולד",
-      "min_qty": 2,
-      "until": "2026-12-12",
-      "club_only": true
-     }
-    }
-   }
-  },
-  {
-   "barcode": "7290123611969",
-   "name": "ביצי שוקולד עם הפתעה",
-   "unit": "60 גרם",
-   "brand": "לויג' זאיני",
-   "category": "ביצים",
-   "prices": {
-    "osherad_lod": {
-     "price": 14.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 14.9,
-     "deal": null
-    },
-    "yeshchesed": {
-     "price": 14.9,
-     "deal": {
-      "price": 12.5,
-      "terms": "ישח 2ב25 שלישיית ביצי שוקולד",
-      "min_qty": 2,
-      "until": "2026-12-12",
-      "club_only": true
-     }
-    }
-   }
-  },
-  {
    "barcode": "7290110058821",
    "name": "ביצי שוקולד עם הפתעה",
    "unit": "90 גרם",
@@ -927,6 +852,87 @@
    "barcode": "7290118878773",
    "name": "ביצי שוקולד עם הפתעה",
    "unit": "90 גרם",
+   "brand": "לויג' זאיני",
+   "category": "ביצים",
+   "prices": {
+    "osherad_lod": {
+     "price": 14.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 14.9,
+     "deal": null
+    },
+    "yeshchesed": {
+     "price": 14.9,
+     "deal": {
+      "price": 12.5,
+      "terms": "ישח 2ב25 שלישיית ביצי שוקולד",
+      "min_qty": 2,
+      "until": "2026-12-12",
+      "club_only": true
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290108075625",
+   "name": "ביצי שוקולד עם הפתעה",
+   "unit": "60 גרם",
+   "brand": "לויג' זאיני",
+   "category": "ביצים",
+   "prices": {
+    "osherad_lod": {
+     "price": 14.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 14.9,
+     "deal": null
+    },
+    "yeshchesed": {
+     "price": 14.9,
+     "deal": {
+      "price": 12.5,
+      "terms": "ישח 2ב25 שלישיית ביצי שוקולד",
+      "min_qty": 2,
+      "until": "2026-12-12",
+      "club_only": true
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290112706362",
+   "name": "ביצי שוקולד עם הפתעה",
+   "unit": "60 גרם",
+   "brand": "לויג' זאיני",
+   "category": "ביצים",
+   "prices": {
+    "osherad_lod": {
+     "price": 14.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 14.9,
+     "deal": null
+    },
+    "yeshchesed": {
+     "price": 14.9,
+     "deal": {
+      "price": 12.5,
+      "terms": "ישח 2ב25 שלישיית ביצי שוקולד",
+      "min_qty": 2,
+      "until": "2026-12-12",
+      "club_only": true
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290123611969",
+   "name": "ביצי שוקולד עם הפתעה",
+   "unit": "60 גרם",
    "brand": "לויג' זאיני",
    "category": "ביצים",
    "prices": {
@@ -1184,6 +1190,27 @@
     },
     "yeshchesed": {
      "price": 34.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290000522326",
+   "name": "חלב 1% רמת הגולן 1 ל",
+   "unit": "1",
+   "brand": "מחלבת רמת הגולן",
+   "category": "חלב",
+   "prices": {
+    "osherad_lod": {
+     "price": 6.8,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 6.8,
+     "deal": null
+    },
+    "yeshchesed": {
+     "price": 6.8,
      "deal": null
     }
    }
@@ -1761,8 +1788,8 @@
     "yeshchesed": {
      "price": 4.9,
      "deal": {
-      "price": 3.67,
-      "terms": "ישח 3ב11 מטבעות שוקולד 36 גרם",
+      "price": 3.33,
+      "terms": "ישח 3ב10 מטבעות שוקולד 36 גרם",
       "min_qty": 3,
       "until": "2026-12-12",
       "club_only": true
@@ -2036,19 +2063,19 @@
    }
   },
   {
-   "barcode": "7290110550820",
-   "name": "שוקולד חלב מעולה מקו",
-   "unit": "100 גרם",
-   "brand": "עלית",
+   "barcode": "7290020449009",
+   "name": "שוקולד חלב מעולה קרם",
+   "unit": "90 גרם",
+   "brand": "מקס ברנר",
    "category": "חלב",
    "prices": {
     "osherad_lod": {
-     "price": 13.9,
+     "price": 12.9,
      "deal": {
-      "price": 12.0,
-      "terms": "טבלאות שוקולד  ספלנדיד  2 ב 24",
+      "price": 9.0,
+      "terms": "טבלאות שוקולד  טעמן  2 ב 18",
       "min_qty": 2,
-      "until": "2026-12-05"
+      "until": "2026-12-12"
      }
     },
     "osherad_kiryat_ono": {
@@ -2070,42 +2097,6 @@
       "name_in_store": "יולו שוקולד חלב מעולה123",
       "review": true
      }
-    }
-   }
-  },
-  {
-   "barcode": "7290020449009",
-   "name": "שוקולד חלב מעולה קרם",
-   "unit": "90 גרם",
-   "brand": "מקס ברנר",
-   "category": "חלב",
-   "prices": {
-    "osherad_lod": {
-     "price": 12.9,
-     "deal": {
-      "price": 9.0,
-      "terms": "טבלאות שוקולד  טעמן  2 ב 18",
-      "min_qty": 2,
-      "until": "2026-12-12"
-     }
-    },
-    "osherad_kiryat_ono": {
-     "price": 13.9,
-     "deal": {
-      "price": 12.0,
-      "terms": "טבלאות שוקולד  ספלנדיד  2 ב 24",
-      "min_qty": 2,
-      "until": "2026-12-05"
-     },
-     "match": {
-      "by": "name",
-      "score": 0.72,
-      "name_in_store": "שוקולד חלב מעולה מקו"
-     }
-    },
-    "yeshchesed": {
-     "price": 12.9,
-     "deal": null
     }
    }
   },
@@ -2289,8 +2280,8 @@
      "deal": null,
      "match": {
       "by": "name",
-      "score": 0.616,
-      "name_in_store": "שוקולד לבן קרם חלב",
+      "score": 0.689,
+      "name_in_store": "שוקולד חלב קרם חלב",
       "review": true
      }
     }
@@ -2595,7 +2586,7 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 1.9,
+     "price": 3.6,
      "deal": null
     },
     "yeshchesed": {
@@ -2738,27 +2729,6 @@
     },
     "yeshchesed": {
      "price": 17.9,
-     "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "7290003126712",
-   "name": "יוגורט עיזים צוריאל",
-   "unit": "150",
-   "brand": "מחלבת משק צוריאל",
-   "category": "יוגורט",
-   "prices": {
-    "osherad_lod": {
-     "price": 6.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 6.9,
-     "deal": null
-    },
-    "yeshchesed": {
-     "price": 6.9,
      "deal": null
     }
    }
@@ -3433,18 +3403,18 @@
    }
   },
   {
-   "barcode": "835811007760",
-   "name": "פירורי לחם פנקו הנמל",
-   "unit": "550 גרם",
-   "brand": "הנמל",
+   "barcode": "7290019304586",
+   "name": "פנקו פירורי לחם לבני",
+   "unit": "1",
+   "brand": "גואנגדונג בארי",
    "category": "לחם",
    "prices": {
     "osherad_lod": {
-     "price": 9.9,
+     "price": 16.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 9.9,
+     "price": 16.9,
      "deal": null
     },
     "yeshchesed": {
@@ -3670,11 +3640,21 @@
    "prices": {
     "osherad_lod": {
      "price": 6.9,
-     "deal": null
+     "deal": {
+      "price": 6.0,
+      "terms": "אבקת סוכר  הנמל  500 גרם 2 ב 12",
+      "min_qty": 2,
+      "until": "2026-12-05"
+     }
     },
     "osherad_kiryat_ono": {
      "price": 6.9,
-     "deal": null
+     "deal": {
+      "price": 6.0,
+      "terms": "אבקת סוכר  הנמל  500 גרם 2 ב 12",
+      "min_qty": 2,
+      "until": "2026-12-05"
+     }
     },
     "yeshchesed": {
      "price": 7.9,
@@ -4329,18 +4309,18 @@
     "osherad_lod": {
      "price": 6.9,
      "deal": {
-      "price": 6.67,
-      "terms": "משקה  שוופס  פרוט/ליים 3 ב 20",
-      "min_qty": 3,
+      "price": 6.5,
+      "terms": "משקה  שוופס  פרוט/ליים 2 ב 13",
+      "min_qty": 2,
       "until": "2026-12-05"
      }
     },
     "osherad_kiryat_ono": {
      "price": 6.9,
      "deal": {
-      "price": 6.67,
-      "terms": "משקה  שוופס  פרוט/ליים 3 ב 20",
-      "min_qty": 3,
+      "price": 6.5,
+      "terms": "משקה  שוופס  פרוט/ליים 2 ב 13",
+      "min_qty": 2,
       "until": "2026-12-05"
      }
     },
@@ -4418,20 +4398,15 @@
     "osherad_lod": {
      "price": 9.9,
      "deal": {
-      "price": 7.9,
-      "terms": "עגבניה 7.9 מוגבל 3 ק ג",
+      "price": 6.9,
+      "terms": "עגבניה 6.9 מוגבל 3 ק ג סניפים",
       "min_qty": 0.01,
       "until": "2026-11-28"
      }
     },
     "osherad_kiryat_ono": {
      "price": 8.9,
-     "deal": {
-      "price": 7.9,
-      "terms": "עגבניה 7.9 מוגבל 3 ק ג",
-      "min_qty": 0.01,
-      "until": "2026-11-28"
-     }
+     "deal": null
     },
     "yeshchesed": {
      "price": 7.9,
@@ -4531,8 +4506,14 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 23.9,
-     "deal": null
+     "price": 11.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.693,
+      "name_in_store": "עגבניות שרי מיוחדים",
+      "review": true
+     }
     },
     "yeshchesed": {
      "price": 9.9,
@@ -4553,16 +4534,16 @@
    "category": "עגבניות",
    "prices": {
     "osherad_lod": {
-     "price": 15.9,
+     "price": 19.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 11.9,
+     "price": 23.9,
      "deal": null,
      "match": {
       "by": "name",
-      "score": 0.574,
-      "name_in_store": "עגבניות שרי מיוחדים",
+      "score": 0.693,
+      "name_in_store": "עגבניות שרי",
       "review": true
      }
     },
@@ -4615,19 +4596,29 @@
    }
   },
   {
-   "barcode": "7290009004793",
-   "name": "עגבניות שרי לובלו מש",
-   "unit": "1",
+   "barcode": "7290019600022",
+   "name": "עגבניות שרי ליקופן צ",
+   "unit": "900 גרם",
    "brand": "אראל תוצרת חקלאית בע",
    "category": "עגבניות",
    "prices": {
     "osherad_lod": {
-     "price": 20.9,
-     "deal": null
+     "price": 21.9,
+     "deal": {
+      "price": 19.0,
+      "terms": "מארז עגבניות שרי צימן 900 גרם 2 ב 38-",
+      "min_qty": 2,
+      "until": "2026-11-28"
+     }
     },
     "osherad_kiryat_ono": {
-     "price": 21.9,
-     "deal": null
+     "price": 20.9,
+     "deal": {
+      "price": 19.0,
+      "terms": "מארז עגבניות שרי צימן 900 גרם 2 ב 38-",
+      "min_qty": 2,
+      "until": "2026-11-28"
+     }
     },
     "yeshchesed": {
      "price": 15.9,
@@ -5142,7 +5133,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 14.9,
+     "price": 19.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -5200,7 +5191,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 22.9,
+     "price": 34.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -5303,12 +5294,12 @@
      "deal": null
     },
     "yeshchesed": {
-     "price": 41.9,
+     "price": 37.9,
      "deal": null,
      "match": {
       "by": "name",
-      "score": 0.676,
-      "name_in_store": "ירכיים עוף \"יש\" קפוא",
+      "score": 0.66,
+      "name_in_store": "ירכיים עוף קפוא שקיל",
       "review": true
      }
     }
@@ -5330,8 +5321,14 @@
      "deal": null
     },
     "yeshchesed": {
-     "price": 39.9,
-     "deal": null
+     "price": 41.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.676,
+      "name_in_store": "ירכיים עוף \"יש\" קפוא",
+      "review": true
+     }
     }
    }
   },
@@ -5474,7 +5471,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 11.9,
+     "price": 15.9,
      "deal": {
       "price": 8.9,
       "terms": "כנפיים עוף טרי  עטרה  8.90 מוג 3",
@@ -5668,7 +5665,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 22.9,
+     "price": 34.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -6277,7 +6274,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 49.9,
+     "price": 69.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -6464,8 +6461,13 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 29.9,
-     "deal": null
+     "price": 44.9,
+     "deal": {
+      "price": 40.0,
+      "terms": "פילה עוף טרי   פרימה  2 ב 80",
+      "min_qty": 1.85,
+      "until": "2026-11-23"
+     }
     },
     "osherad_kiryat_ono": {
      "price": 44.9,
@@ -6544,8 +6546,13 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 49.9,
-     "deal": null
+     "price": 64.9,
+     "deal": {
+      "price": 60.0,
+      "terms": "פרגית טרי  פרימה  2 ב 120",
+      "min_qty": 1.9,
+      "until": "2026-11-23"
+     }
     },
     "osherad_kiryat_ono": {
      "price": 64.9,
@@ -6872,6 +6879,33 @@
       "name_in_store": "שניצל עוף טרי דק דק",
       "review": true
      }
+    }
+   }
+  },
+  {
+   "barcode": "7290008455886",
+   "name": "שניצל עוף טרי אחדות",
+   "unit": "ק\"ג (שקיל)",
+   "brand": "סנטרל גלאט",
+   "category": "עוף",
+   "prices": {
+    "osherad_lod": {
+     "price": 54.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 59.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.684,
+      "name_in_store": "שניצל עוף טרי \"בוטיק",
+      "review": true
+     }
+    },
+    "yeshchesed": {
+     "price": 54.9,
+     "deal": null
     }
    }
   },
@@ -8817,7 +8851,7 @@
    }
   },
   {
-   "barcode": "7290019568209",
+   "barcode": "7290016106657",
    "name": "טונה בשמן טעמן 4*140",
    "unit": "560 גרם",
    "brand": "דיאמוד פוד פרודקט סי",
@@ -8860,7 +8894,7 @@
    }
   },
   {
-   "barcode": "7290016106657",
+   "barcode": "7290019568209",
    "name": "טונה בשמן טעמן 4*140",
    "unit": "560 גרם",
    "brand": "דיאמוד פוד פרודקט סי",
@@ -9227,18 +9261,18 @@
    }
   },
   {
-   "barcode": "7290015321167",
+   "barcode": "7290003078639",
    "name": "פפריקה מתוקה בשמן פר",
-   "unit": "250 גרם",
+   "unit": "500 גרם",
    "brand": "תבליני הדור השלישי",
    "category": "שמן",
    "prices": {
     "osherad_lod": {
-     "price": 21.9,
+     "price": 34.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 21.9,
+     "price": 34.9,
      "deal": null
     },
     "yeshchesed": {
@@ -9361,24 +9395,19 @@
    }
   },
   {
-   "barcode": "7290003427154",
-   "name": "שמן זית כתית מעולה ז",
+   "barcode": "7290002407348",
+   "name": "שמן זית כתית מעולה ג",
    "unit": "750",
-   "brand": "זיתא",
+   "brand": "גהשאן",
    "category": "שמן",
    "prices": {
     "osherad_lod": {
-     "price": 44.9,
+     "price": 29.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 19.9,
-     "deal": null,
-     "match": {
-      "by": "name",
-      "score": 0.76,
-      "name_in_store": "שמן זית כתית מעולה פ"
-     }
+     "price": 26.9,
+     "deal": null
     },
     "yeshchesed": {
      "price": 27.9,
@@ -9458,11 +9487,11 @@
    "category": "שמן",
    "prices": {
     "osherad_lod": {
-     "price": 17.5,
+     "price": 14.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 19.9,
+     "price": 14.9,
      "deal": null
     },
     "yeshchesed": {
@@ -9523,9 +9552,9 @@
     "osherad_kiryat_ono": {
      "price": 8.9,
      "deal": {
-      "price": 7.5,
-      "terms": "שמן קנולה 1 ל  2 ב 15",
-      "min_qty": 2,
+      "price": 6.67,
+      "terms": "שמן קנולה 1 ל  3 ב 20 מוג2",
+      "min_qty": 3,
       "until": "2026-12-12"
      }
     },
@@ -9609,9 +9638,9 @@
     "osherad_kiryat_ono": {
      "price": 8.9,
      "deal": {
-      "price": 7.5,
-      "terms": "שמן קנולה 1 ל  2 ב 15",
-      "min_qty": 2,
+      "price": 6.67,
+      "terms": "שמן קנולה 1 ל  3 ב 20 מוג2",
+      "min_qty": 3,
       "until": "2026-12-12"
      },
      "match": {
@@ -9872,14 +9901,14 @@
    }
   },
   {
-   "barcode": "7290018825013",
+   "barcode": "7290009002980",
    "name": "תפוח אדמה אדום",
-   "unit": "0 יחידות",
+   "unit": "5",
    "brand": "אראל תוצרת חקלאית בע",
    "category": "תפוחי אדמה",
    "prices": {
     "osherad_lod": {
-     "price": 33.9,
+     "price": 31.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -10368,6 +10397,23 @@
    }
   },
   {
+   "barcode": "7290013303608",
+   "name": "יין אור הגנוז הר סינ",
+   "unit": "750",
+   "brand": "חבל יתיר",
+   "category": "אורז",
+   "prices": {
+    "osherad_lod": {
+     "price": 99.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 99.9,
+     "deal": null
+    }
+   }
+  },
+  {
    "barcode": "877520330814",
    "name": "יין אור הגנוז הר סינ",
    "unit": "750",
@@ -10386,23 +10432,6 @@
       "score": 1.0,
       "name_in_store": "יין אור הגנוז הר סינ"
      }
-    }
-   }
-  },
-  {
-   "barcode": "7290013303608",
-   "name": "יין אור הגנוז הר סינ",
-   "unit": "750",
-   "brand": "חבל יתיר",
-   "category": "אורז",
-   "prices": {
-    "osherad_lod": {
-     "price": 99.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 99.9,
-     "deal": null
     }
    }
   },
@@ -10864,6 +10893,23 @@
    }
   },
   {
+   "barcode": "7290000289595",
+   "name": "משחת אורביטול ילדים",
+   "unit": "145 גרם",
+   "brand": "טרופיקל דגיל",
+   "category": "אורז",
+   "prices": {
+    "osherad_lod": {
+     "price": 7.5,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 7.5,
+     "deal": null
+    }
+   }
+  },
+  {
    "barcode": "7290012823343",
    "name": "משחת אורביטול ילדים",
    "unit": "70 גרם",
@@ -10904,23 +10950,6 @@
       "score": 1.0,
       "name_in_store": "משחת אורביטול ילדים"
      }
-    }
-   }
-  },
-  {
-   "barcode": "7290000289595",
-   "name": "משחת אורביטול ילדים",
-   "unit": "145 גרם",
-   "brand": "טרופיקל דגיל",
-   "category": "אורז",
-   "prices": {
-    "osherad_lod": {
-     "price": 7.5,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 7.5,
-     "deal": null
     }
    }
   },
@@ -11464,8 +11493,13 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 12.9,
-     "deal": null
+     "price": 6.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 1.0,
+      "name_in_store": "נודלס אטריות ביצים ל"
+     }
     }
    }
   },
@@ -12129,33 +12163,6 @@
    }
   },
   {
-   "barcode": "8700216891011",
-   "name": "חיתולי פמפרס פרימיום",
-   "unit": "22 יחידות",
-   "brand": "פרוקטר & גמבל",
-   "category": "חיתולים",
-   "prices": {
-    "osherad_lod": {
-     "price": 34.5,
-     "deal": {
-      "price": 26.67,
-      "terms": "חיתולי פרימיום  פמפרס  3 ב 80",
-      "min_qty": 3,
-      "until": "2026-11-28"
-     }
-    },
-    "osherad_kiryat_ono": {
-     "price": 34.5,
-     "deal": {
-      "price": 26.67,
-      "terms": "חיתולי פרימיום  פמפרס  3 ב 80",
-      "min_qty": 3,
-      "until": "2026-11-28"
-     }
-    }
-   }
-  },
-  {
    "barcode": "8700216890984",
    "name": "חיתולי פמפרס פרימיום",
    "unit": "32 יחידות",
@@ -12294,6 +12301,33 @@
    "barcode": "8700216891103",
    "name": "חיתולי פמפרס פרימיום",
    "unit": "24 יחידות",
+   "brand": "פרוקטר & גמבל",
+   "category": "חיתולים",
+   "prices": {
+    "osherad_lod": {
+     "price": 34.5,
+     "deal": {
+      "price": 26.67,
+      "terms": "חיתולי פרימיום  פמפרס  3 ב 80",
+      "min_qty": 3,
+      "until": "2026-11-28"
+     }
+    },
+    "osherad_kiryat_ono": {
+     "price": 34.5,
+     "deal": {
+      "price": 26.67,
+      "terms": "חיתולי פרימיום  פמפרס  3 ב 80",
+      "min_qty": 3,
+      "until": "2026-11-28"
+     }
+    }
+   }
+  },
+  {
+   "barcode": "8700216891011",
+   "name": "חיתולי פמפרס פרימיום",
+   "unit": "22 יחידות",
    "brand": "פרוקטר & גמבל",
    "category": "חיתולים",
    "prices": {
@@ -12542,7 +12576,7 @@
    }
   },
   {
-   "barcode": "7290121442077",
+   "barcode": "7290121442084",
    "name": "אבקת חלבון מי גבינה",
    "unit": "1.5",
    "brand": "דרך לחיות",
@@ -12559,7 +12593,7 @@
    }
   },
   {
-   "barcode": "7290121442084",
+   "barcode": "7290121442077",
    "name": "אבקת חלבון מי גבינה",
    "unit": "1.5",
    "brand": "דרך לחיות",
@@ -12687,23 +12721,6 @@
       "min_qty": 2,
       "until": "2027-01-01"
      }
-    }
-   }
-  },
-  {
-   "barcode": "7290000522326",
-   "name": "חלב 1% רמת הגולן 1 ל",
-   "unit": "1",
-   "brand": "מחלבת רמת הגולן",
-   "category": "חלב",
-   "prices": {
-    "osherad_lod": {
-     "price": 6.8,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 6.8,
-     "deal": null
     }
    }
   },
@@ -12854,23 +12871,6 @@
    }
   },
   {
-   "barcode": "7290019766421",
-   "name": "מאגדת חטיף חלבון אול",
-   "unit": "165 גרם",
-   "brand": "מדיטרנד",
-   "category": "חלב",
-   "prices": {
-    "osherad_lod": {
-     "price": 36.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 36.9,
-     "deal": null
-    }
-   }
-  },
-  {
    "barcode": "7290019766438",
    "name": "מאגדת חטיף חלבון אול",
    "unit": "165 גרם",
@@ -12883,7 +12883,12 @@
     },
     "osherad_kiryat_ono": {
      "price": 36.9,
-     "deal": null
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 1.0,
+      "name_in_store": "מאגדת חטיף חלבון אול"
+     }
     }
    }
   },
@@ -12927,13 +12932,13 @@
      }
     },
     "yeshchesed": {
-     "price": 75.0,
-     "deal": null,
-     "match": {
-      "by": "name",
-      "score": 0.684,
-      "name_in_store": "מטבעות שוקולד חלב שקיל",
-      "review": true
+     "price": 4.9,
+     "deal": {
+      "price": 3.33,
+      "terms": "ישח 3ב10 מטבעות שוקולד 36 גרם",
+      "min_qty": 3,
+      "until": "2026-12-12",
+      "club_only": true
      }
     }
    }
@@ -12955,18 +12960,12 @@
      }
     },
     "yeshchesed": {
-     "price": 4.9,
-     "deal": {
-      "price": 3.67,
-      "terms": "ישח 3ב11 מטבעות שוקולד 36 גרם",
-      "min_qty": 3,
-      "until": "2026-12-12",
-      "club_only": true
-     },
+     "price": 75.0,
+     "deal": null,
      "match": {
       "by": "name",
-      "score": 0.624,
-      "name_in_store": "מטבעות שוקולד חלב 36 גרם",
+      "score": 0.684,
+      "name_in_store": "מטבעות שוקולד חלב שקיל",
       "review": true
      }
     }
@@ -13258,6 +13257,33 @@
    }
   },
   {
+   "barcode": "7290110550820",
+   "name": "שוקולד חלב מעולה מקו",
+   "unit": "100 גרם",
+   "brand": "עלית",
+   "category": "חלב",
+   "prices": {
+    "osherad_lod": {
+     "price": 13.9,
+     "deal": {
+      "price": 12.0,
+      "terms": "טבלאות שוקולד  ספלנדיד  2 ב 24",
+      "min_qty": 2,
+      "until": "2026-12-05"
+     }
+    },
+    "osherad_kiryat_ono": {
+     "price": 13.9,
+     "deal": {
+      "price": 12.0,
+      "terms": "טבלאות שוקולד  ספלנדיד  2 ב 24",
+      "min_qty": 2,
+      "until": "2026-12-05"
+     }
+    }
+   }
+  },
+  {
    "barcode": "7290020449016",
    "name": "שוקולד חלב מעולה קרם",
    "unit": "90 גרם",
@@ -13275,7 +13301,13 @@
     },
     "yeshchesed": {
      "price": 12.9,
-     "deal": null
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.555,
+      "name_in_store": "שוקולד חלב קרם אגוזים 90",
+      "review": true
+     }
     }
    }
   },
@@ -13439,7 +13471,7 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 39.9,
+     "price": 19.9,
      "deal": null
     }
    }
@@ -13854,6 +13886,23 @@
       "min_qty": 2,
       "until": "2026-12-05"
      }
+    }
+   }
+  },
+  {
+   "barcode": "7290003126712",
+   "name": "יוגורט עיזים צוריאל",
+   "unit": "150",
+   "brand": "מחלבת משק צוריאל",
+   "category": "יוגורט",
+   "prices": {
+    "osherad_kiryat_ono": {
+     "price": 6.9,
+     "deal": null
+    },
+    "yeshchesed": {
+     "price": 6.9,
+     "deal": null
     }
    }
   },
@@ -14705,18 +14754,18 @@
    }
   },
   {
-   "barcode": "7290019304586",
-   "name": "פנקו פירורי לחם לבני",
-   "unit": "1",
-   "brand": "גואנגדונג בארי",
+   "barcode": "835811007760",
+   "name": "פירורי לחם פנקו הנמל",
+   "unit": "550 גרם",
+   "brand": "הנמל",
    "category": "לחם",
    "prices": {
     "osherad_lod": {
-     "price": 16.9,
+     "price": 9.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 16.9,
+     "price": 9.9,
      "deal": null
     }
    }
@@ -15055,7 +15104,7 @@
    }
   },
   {
-   "barcode": "8720181885648",
+   "barcode": "8712561611411",
    "name": "תחליב דאב מלפפונים ו",
    "unit": "750",
    "brand": "יוניליוור",
@@ -15082,7 +15131,7 @@
    }
   },
   {
-   "barcode": "8712561611411",
+   "barcode": "8720181885648",
    "name": "תחליב דאב מלפפונים ו",
    "unit": "750",
    "brand": "יוניליוור",
@@ -15451,23 +15500,6 @@
   },
   {
    "barcode": "7290003154401",
-   "name": "מסטיק ללא סוכר בטעם",
-   "unit": "54 גרם",
-   "brand": "אופנהיימר",
-   "category": "סוכר",
-   "prices": {
-    "osherad_lod": {
-     "price": 14.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 14.9,
-     "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "7290003154395",
    "name": "מסטיק ללא סוכר בטעם",
    "unit": "54 גרם",
    "brand": "אופנהיימר",
@@ -16147,23 +16179,6 @@
    }
   },
   {
-   "barcode": "7290117905807",
-   "name": "סוכריות גומי קפיצי ב",
-   "unit": "300 גרם",
-   "brand": "טופ גאם",
-   "category": "סוכר",
-   "prices": {
-    "osherad_lod": {
-     "price": 14.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 14.9,
-     "deal": null
-    }
-   }
-  },
-  {
    "barcode": "7290117905821",
    "name": "סוכריות גומי קפיצי ב",
    "unit": "300 גרם",
@@ -16182,6 +16197,23 @@
   },
   {
    "barcode": "7290117906118",
+   "name": "סוכריות גומי קפיצי ב",
+   "unit": "300 גרם",
+   "brand": "טופ גאם",
+   "category": "סוכר",
+   "prices": {
+    "osherad_lod": {
+     "price": 14.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 14.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290117905807",
    "name": "סוכריות גומי קפיצי ב",
    "unit": "300 גרם",
    "brand": "טופ גאם",
@@ -16769,6 +16801,29 @@
     "osherad_kiryat_ono": {
      "price": 11.9,
      "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "811146032257",
+   "name": "סוכריות פאזל סביבון",
+   "unit": "154 גרם",
+   "brand": "גאונגדונג צ'אואן האי",
+   "category": "סוכר",
+   "prices": {
+    "osherad_lod": {
+     "price": 9.9,
+     "deal": null
+    },
+    "yeshchesed": {
+     "price": 12.9,
+     "deal": {
+      "price": 8.9,
+      "terms": "ישח 8.90 אודלס סביבון 12 יחידות",
+      "min_qty": 1,
+      "until": "2026-12-12",
+      "club_only": true
+     }
     }
    }
   },
@@ -17446,35 +17501,25 @@
    }
   },
   {
-   "barcode": "7290019600060",
-   "name": "עגבניות שרי לובלו צי",
-   "unit": "900 גרם",
+   "barcode": "7290009004793",
+   "name": "עגבניות שרי לובלו מש",
+   "unit": "1",
    "brand": "אראל תוצרת חקלאית בע",
    "category": "עגבניות",
    "prices": {
     "osherad_lod": {
-     "price": 21.9,
-     "deal": {
-      "price": 19.0,
-      "terms": "מארז עגבניות שרי צימן 900 גרם 2 ב 38-",
-      "min_qty": 2,
-      "until": "2026-11-28"
-     }
+     "price": 20.9,
+     "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 20.9,
-     "deal": {
-      "price": 19.0,
-      "terms": "מארז עגבניות שרי צימן 900 גרם 2 ב 38-",
-      "min_qty": 2,
-      "until": "2026-11-28"
-     }
+     "price": 21.9,
+     "deal": null
     }
    }
   },
   {
-   "barcode": "7290019600022",
-   "name": "עגבניות שרי ליקופן צ",
+   "barcode": "7290019600060",
+   "name": "עגבניות שרי לובלו צי",
    "unit": "900 גרם",
    "brand": "אראל תוצרת חקלאית בע",
    "category": "עגבניות",
@@ -17946,29 +17991,6 @@
    }
   },
   {
-   "barcode": "7290008631587",
-   "name": "ירכיים עוף קפוא אחדו",
-   "unit": "ק\"ג (שקיל)",
-   "brand": "סנטרל גלאט",
-   "category": "עוף",
-   "prices": {
-    "osherad_lod": {
-     "price": 39.9,
-     "deal": null
-    },
-    "yeshchesed": {
-     "price": 37.9,
-     "deal": null,
-     "match": {
-      "by": "name",
-      "score": 0.66,
-      "name_in_store": "ירכיים עוף קפוא שקיל",
-      "review": true
-     }
-    }
-   }
-  },
-  {
    "barcode": "7290002804802",
    "name": "ירכיים עוף קפוא דליק",
    "unit": "ק\"ג (שקיל)",
@@ -18032,11 +18054,11 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 16.9,
+     "price": 24.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 21.9,
+     "price": 24.9,
      "deal": null
     }
    }
@@ -18214,7 +18236,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 16.9,
+     "price": 34.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -18328,7 +18350,7 @@
    "category": "עוף",
    "prices": {
     "osherad_lod": {
-     "price": 28.5,
+     "price": 26.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -18372,23 +18394,6 @@
    }
   },
   {
-   "barcode": "7290013906694",
-   "name": "נקניקיות עוף טירת צב",
-   "unit": "1.5",
-   "brand": "טירת צבי",
-   "category": "עוף",
-   "prices": {
-    "osherad_lod": {
-     "price": 37.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 37.9,
-     "deal": null
-    }
-   }
-  },
-  {
    "barcode": "7290000364858",
    "name": "נקניקיות עוף טירת צב",
    "unit": "1",
@@ -18412,6 +18417,23 @@
       "min_qty": 2,
       "until": "2026-12-05"
      }
+    }
+   }
+  },
+  {
+   "barcode": "7290013906694",
+   "name": "נקניקיות עוף טירת צב",
+   "unit": "1.5",
+   "brand": "טירת צבי",
+   "category": "עוף",
+   "prices": {
+    "osherad_lod": {
+     "price": 37.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 37.9,
+     "deal": null
     }
    }
   },
@@ -18746,8 +18768,13 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 59.9,
-     "deal": null
+     "price": 49.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 1.0,
+      "name_in_store": "פילה עוף טרי \" בוטיק"
+     }
     }
    }
   },
@@ -18787,12 +18814,7 @@
     },
     "osherad_kiryat_ono": {
      "price": 59.9,
-     "deal": null,
-     "match": {
-      "by": "name",
-      "score": 1.0,
-      "name_in_store": "פילה עוף טרי \"בוטיק"
-     }
+     "deal": null
     }
    }
   },
@@ -18808,12 +18830,12 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 49.9,
+     "price": 59.9,
      "deal": null,
      "match": {
       "by": "name",
       "score": 1.0,
-      "name_in_store": "פילה עוף טרי \" בוטיק"
+      "name_in_store": "פילה עוף טרי \"בוטיק"
      }
     }
    }
@@ -19084,7 +19106,13 @@
     },
     "osherad_kiryat_ono": {
      "price": 59.9,
-     "deal": null
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.703,
+      "name_in_store": "פילה עוף טרי \" בוטיק",
+      "review": true
+     }
     }
    }
   },
@@ -19118,23 +19146,6 @@
     },
     "osherad_kiryat_ono": {
      "price": 59.9,
-     "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "7290008455886",
-   "name": "שניצל עוף טרי אחדות",
-   "unit": "ק\"ג (שקיל)",
-   "brand": "סנטרל גלאט",
-   "category": "עוף",
-   "prices": {
-    "osherad_lod": {
-     "price": 54.9,
-     "deal": null
-    },
-    "yeshchesed": {
-     "price": 54.9,
      "deal": null
     }
    }
@@ -20005,14 +20016,8 @@
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 26.9,
-     "deal": null,
-     "match": {
-      "by": "name",
-      "score": 0.633,
-      "name_in_store": "מארז פסטרמה ברביקיו/",
-      "review": true
-     }
+     "price": 24.9,
+     "deal": null
     }
    }
   },
@@ -20156,23 +20161,6 @@
    }
   },
   {
-   "barcode": "7290003072521",
-   "name": "פסטרמה כתף בקר מעושנ",
-   "unit": "300 גרם",
-   "brand": "טירת צבי",
-   "category": "פסטה",
-   "prices": {
-    "osherad_lod": {
-     "price": 34.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 34.9,
-     "deal": null
-    }
-   }
-  },
-  {
    "barcode": "7290003229192",
    "name": "פסטרמה כתף בקר מעושנ",
    "unit": "400 גרם",
@@ -20202,6 +20190,23 @@
     },
     "osherad_kiryat_ono": {
      "price": 22.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290003072521",
+   "name": "פסטרמה כתף בקר מעושנ",
+   "unit": "300 גרם",
+   "brand": "טירת צבי",
+   "category": "פסטה",
+   "prices": {
+    "osherad_lod": {
+     "price": 34.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 34.9,
      "deal": null
     }
    }
@@ -21360,12 +21365,18 @@
      }
     },
     "osherad_kiryat_ono": {
-     "price": 14.9,
+     "price": 28.9,
      "deal": {
-      "price": 12.5,
-      "terms": "פילה טונה  עץ הזית  2 ב 25",
+      "price": 24.0,
+      "terms": "טונה בשמן זית  ריו מרה  3*80 גרם 2 ב 48",
       "min_qty": 2,
       "until": "2026-12-05"
+     },
+     "match": {
+      "by": "name",
+      "score": 0.581,
+      "name_in_store": "טונה בשמן זית צ'ילי",
+      "review": true
      }
     }
    }
@@ -21415,12 +21426,18 @@
      }
     },
     "osherad_kiryat_ono": {
-     "price": 14.9,
+     "price": 28.9,
      "deal": {
-      "price": 12.5,
-      "terms": "פילה טונה  עץ הזית  2 ב 25",
+      "price": 24.0,
+      "terms": "טונה בשמן זית  ריו מרה  3*80 גרם 2 ב 48",
       "min_qty": 2,
       "until": "2026-12-05"
+     },
+     "match": {
+      "by": "name",
+      "score": 0.611,
+      "name_in_store": "טונה בשמן זית לימון",
+      "review": true
      }
     }
    }
@@ -21494,18 +21511,18 @@
    }
   },
   {
-   "barcode": "7290003078639",
+   "barcode": "7290015321167",
    "name": "פפריקה מתוקה בשמן פר",
-   "unit": "500 גרם",
+   "unit": "250 גרם",
    "brand": "תבליני הדור השלישי",
    "category": "שמן",
    "prices": {
     "osherad_lod": {
-     "price": 34.9,
+     "price": 21.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 34.9,
+     "price": 21.9,
      "deal": null
     }
    }
@@ -21572,19 +21589,24 @@
    }
   },
   {
-   "barcode": "7290002407348",
-   "name": "שמן זית כתית מעולה ג",
+   "barcode": "7290003427154",
+   "name": "שמן זית כתית מעולה ז",
    "unit": "750",
-   "brand": "גהשאן",
+   "brand": "זיתא",
    "category": "שמן",
    "prices": {
     "osherad_lod": {
-     "price": 29.9,
+     "price": 44.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
-     "price": 26.9,
-     "deal": null
+     "price": 19.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.76,
+      "name_in_store": "שמן זית כתית מעולה פ"
+     }
     }
    }
   },
@@ -21837,9 +21859,9 @@
     "osherad_kiryat_ono": {
      "price": 8.9,
      "deal": {
-      "price": 7.5,
-      "terms": "שמן קנולה 1 ל  2 ב 15",
-      "min_qty": 2,
+      "price": 6.67,
+      "terms": "שמן קנולה 1 ל  3 ב 20 מוג2",
+      "min_qty": 3,
       "until": "2026-12-12"
      }
     }
@@ -21985,8 +22007,14 @@
      }
     },
     "osherad_kiryat_ono": {
-     "price": 9.9,
-     "deal": null
+     "price": 37.9,
+     "deal": null,
+     "match": {
+      "by": "name",
+      "score": 0.567,
+      "name_in_store": "שמן זית כתית שקדיה 7",
+      "review": true
+     }
     }
    }
   },
@@ -22064,28 +22092,6 @@
     "osherad_kiryat_ono": {
      "price": 9.9,
      "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "7290121160346",
-   "name": "חטיף תפוח אדמה בטעם",
-   "unit": "40 גרם",
-   "brand": "מנה",
-   "category": "תפוחי אדמה",
-   "prices": {
-    "osherad_lod": {
-     "price": 1.9,
-     "deal": null
-    },
-    "osherad_kiryat_ono": {
-     "price": 3.7,
-     "deal": {
-      "price": 3.33,
-      "terms": "חטיף  פוף  40 גרם 3 ב  10-",
-      "min_qty": 3,
-      "until": "2026-12-31"
-     }
     }
    }
   },
@@ -22200,14 +22206,36 @@
    }
   },
   {
-   "barcode": "7290009002980",
+   "barcode": "7290121160346",
+   "name": "חטיף תפוח אדמה בטעם",
+   "unit": "40 גרם",
+   "brand": "מנה",
+   "category": "תפוחי אדמה",
+   "prices": {
+    "osherad_lod": {
+     "price": 1.9,
+     "deal": null
+    },
+    "osherad_kiryat_ono": {
+     "price": 3.7,
+     "deal": {
+      "price": 3.33,
+      "terms": "חטיף  פוף  40 גרם 3 ב  10-",
+      "min_qty": 3,
+      "until": "2026-12-31"
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290018825013",
    "name": "תפוח אדמה אדום",
-   "unit": "5",
+   "unit": "0 יחידות",
    "brand": "אראל תוצרת חקלאית בע",
    "category": "תפוחי אדמה",
    "prices": {
     "osherad_lod": {
-     "price": 31.9,
+     "price": 33.9,
      "deal": null
     },
     "osherad_kiryat_ono": {
@@ -23930,7 +23958,13 @@
    "prices": {
     "yeshchesed": {
      "price": 22.9,
-     "deal": null
+     "deal": {
+      "price": 17.9,
+      "terms": "ישח 17.90  פסטה 454 גרם",
+      "min_qty": 1,
+      "until": "2026-12-12",
+      "club_only": true
+     }
     }
    }
   },
@@ -24449,14 +24483,14 @@
    }
   },
   {
-   "barcode": "7290008175692",
+   "barcode": "7290108508635",
    "name": "נודלס אטריות ביצים ל",
-   "unit": "400",
-   "brand": "פוגיאן לונגאי",
+   "unit": "1",
+   "brand": "אקר",
    "category": "ביצים",
    "prices": {
     "osherad_kiryat_ono": {
-     "price": 6.9,
+     "price": 12.9,
      "deal": null
     }
    }
@@ -25175,7 +25209,7 @@
   },
   {
    "barcode": "7290011378257",
-   "name": "חט.חלבה פקאן ללת\"ס18*7גר",
+   "name": "חט.חלבה פקאן ללת\"ס7*18גר",
    "unit": "125 גרם",
    "brand": "רושדי תעשיות מזון",
    "category": "חלב",
@@ -25320,7 +25354,7 @@
   },
   {
    "barcode": "7290011378769",
-   "name": "חטיפי חלבה וניל 18*7 גרם",
+   "name": "חטיפי חלבה וניל 7*18 גרם",
    "unit": "126 גרם",
    "brand": "רושדי תעשיות מזון",
    "category": "חלב",
@@ -25593,6 +25627,19 @@
    "prices": {
     "yeshchesed": {
      "price": 29.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290019766438",
+   "name": "מאגדת חטיף חלבון אול",
+   "unit": "165",
+   "brand": "מדיטרנד",
+   "category": "חלב",
+   "prices": {
+    "osherad_kiryat_ono": {
+     "price": 36.9,
      "deal": null
     }
    }
@@ -26058,7 +26105,7 @@
   },
   {
    "barcode": "7290016246025",
-   "name": "פינוקיות חלבה ללת\"ס20*10",
+   "name": "פינוקיות חלבה ללת\"ס10*20",
    "unit": "200 גרם",
    "brand": "רושדי תעשיות מזון",
    "category": "חלב",
@@ -26298,6 +26345,19 @@
       "until": "2026-12-12",
       "club_only": true
      }
+    }
+   }
+  },
+  {
+   "barcode": "7290020449030",
+   "name": "שוקולד לבן קרם חלב",
+   "unit": "90 גרם",
+   "brand": "כללי",
+   "category": "חלב",
+   "prices": {
+    "yeshchesed": {
+     "price": 12.9,
+     "deal": null
     }
    }
   },
@@ -26896,6 +26956,19 @@
    "prices": {
     "yeshchesed": {
      "price": 7.3,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290019635819",
+   "name": "יוגורט יווני צזיקי 1",
+   "unit": "600",
+   "brand": "מחלבות גד",
+   "category": "יוגורט",
+   "prices": {
+    "osherad_kiryat_ono": {
+     "price": 18.9,
      "deal": null
     }
    }
@@ -28809,6 +28882,19 @@
    }
   },
   {
+   "barcode": "7290003154395",
+   "name": "מסטיק ללא סוכר בטעם",
+   "unit": "54 גרם",
+   "brand": "אופנהיימר",
+   "category": "סוכר",
+   "prices": {
+    "osherad_lod": {
+     "price": 14.9,
+     "deal": null
+    }
+   }
+  },
+  {
    "barcode": "721688156741",
    "name": "מעיין סוכריות GENIUS",
    "unit": "46 גרם",
@@ -28895,19 +28981,6 @@
    "prices": {
     "yeshchesed": {
      "price": 19.9,
-     "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "7290110325626",
-   "name": "משקה שקדים ללא סוכר",
-   "unit": "1",
-   "brand": "סוי מגיק",
-   "category": "סוכר",
-   "prices": {
-    "osherad_lod": {
-     "price": 12.2,
      "deal": null
     }
    }
@@ -29591,7 +29664,7 @@
    }
   },
   {
-   "barcode": "811146030314",
+   "barcode": "25675950429",
    "name": "סוכריות אודלס סביבון",
    "unit": "192 גרם",
    "brand": "JUNDILONG FOODS COMP",
@@ -29609,7 +29682,7 @@
    }
   },
   {
-   "barcode": "25675950429",
+   "barcode": "811146030314",
    "name": "סוכריות אודלס סביבון",
    "unit": "192 גרם",
    "brand": "JUNDILONG FOODS COMP",
@@ -30097,25 +30170,6 @@
     "yeshchesed": {
      "price": 9.9,
      "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "811146032257",
-   "name": "סוכריות דחוסות סביבון פש",
-   "unit": "1 יחידות",
-   "brand": "כללי",
-   "category": "סוכר",
-   "prices": {
-    "yeshchesed": {
-     "price": 12.9,
-     "deal": {
-      "price": 8.9,
-      "terms": "ישח 8.90 אודלס סביבון 12 יחידות",
-      "min_qty": 1,
-      "until": "2026-12-12",
-      "club_only": true
-     }
     }
    }
   },
@@ -30654,6 +30708,19 @@
    "prices": {
     "yeshchesed": {
      "price": 36.0,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "811146032219",
+   "name": "סוכריות שעון סביבון",
+   "unit": "168 גרם",
+   "brand": "גאונגדונג צ'אואן האי",
+   "category": "סוכר",
+   "prices": {
+    "osherad_lod": {
+     "price": 9.9,
      "deal": null
     }
    }
@@ -31335,19 +31402,6 @@
    }
   },
   {
-   "barcode": "7290000207063",
-   "name": "רוטב עגבניות  28% פר",
-   "unit": "240 גרם",
-   "brand": "זנלכל",
-   "category": "עגבניות",
-   "prices": {
-    "osherad_lod": {
-     "price": 5.5,
-     "deal": null
-    }
-   }
-  },
-  {
    "barcode": "710069812109",
    "name": "רוטב עגבניות 425 גרם",
    "unit": "425 גרם",
@@ -31736,6 +31790,32 @@
   {
    "barcode": "7290008455855",
    "name": "ירכיים עוף טרי אחדות",
+   "unit": "ק\"ג (שקיל)",
+   "brand": "סנטרל גלאט",
+   "category": "עוף",
+   "prices": {
+    "osherad_lod": {
+     "price": 39.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290002505037",
+   "name": "ירכיים עוף קהילות מחיר ל",
+   "unit": "ק\"ג (שקיל)",
+   "brand": null,
+   "category": "עוף",
+   "prices": {
+    "yeshchesed": {
+     "price": 39.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290008631587",
+   "name": "ירכיים עוף קפוא אחדו",
    "unit": "ק\"ג (שקיל)",
    "brand": "סנטרל גלאט",
    "category": "עוף",
@@ -32322,19 +32402,6 @@
    }
   },
   {
-   "barcode": "7290006550033",
-   "name": "פילה עוף טרי \"בוטיק",
-   "unit": "ק\"ג (שקיל)",
-   "brand": "סנטרל גלאט",
-   "category": "עוף",
-   "prices": {
-    "osherad_kiryat_ono": {
-     "price": 59.9,
-     "deal": null
-    }
-   }
-  },
-  {
    "barcode": "7290001209547",
    "name": "פילה עוף קפוא עטרה ה",
    "unit": "ק\"ג (שקיל)",
@@ -32556,6 +32623,19 @@
    "prices": {
     "yeshchesed": {
      "price": 19.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290019205739",
+   "name": "מארז פסטרמה ברביקיו/",
+   "unit": "600",
+   "brand": "עוף טוב",
+   "category": "פסטה",
+   "prices": {
+    "osherad_kiryat_ono": {
+     "price": 26.9,
      "deal": null
     }
    }
@@ -33132,19 +33212,6 @@
    "prices": {
     "osherad_lod": {
      "price": 29.9,
-     "deal": null
-    }
-   }
-  },
-  {
-   "barcode": "7290019206354",
-   "name": "פסטרמה ברביקיו עטרה",
-   "unit": "350",
-   "brand": "עוף טוב",
-   "category": "פסטה",
-   "prices": {
-    "osherad_kiryat_ono": {
-     "price": 24.9,
      "deal": null
     }
    }
@@ -34098,42 +34165,6 @@
    }
   },
   {
-   "barcode": "8004030271418",
-   "name": "טונה בשמן זית לימון",
-   "unit": "195",
-   "brand": "בולטון",
-   "category": "שמן",
-   "prices": {
-    "osherad_kiryat_ono": {
-     "price": 28.9,
-     "deal": {
-      "price": 24.0,
-      "terms": "טונה בשמן זית  ריו מרה  3*80 גרם 2 ב 48",
-      "min_qty": 2,
-      "until": "2026-12-05"
-     }
-    }
-   }
-  },
-  {
-   "barcode": "8004030271425",
-   "name": "טונה בשמן זית צ'ילי",
-   "unit": "195",
-   "brand": "בולטון",
-   "category": "שמן",
-   "prices": {
-    "osherad_kiryat_ono": {
-     "price": 28.9,
-     "deal": {
-      "price": 24.0,
-      "terms": "טונה בשמן זית  ריו מרה  3*80 גרם 2 ב 48",
-      "min_qty": 2,
-      "until": "2026-12-05"
-     }
-    }
-   }
-  },
-  {
    "barcode": "8004030344938",
    "name": "טונה בשמן זית ריו מר",
    "unit": "240",
@@ -34170,7 +34201,7 @@
    }
   },
   {
-   "barcode": "7290017617640",
+   "barcode": "7290005287145",
    "name": "טונה בשמן סטארקיסט 9",
    "unit": "960",
    "brand": "סטארקיסט",
@@ -34183,7 +34214,7 @@
    }
   },
   {
-   "barcode": "7290005287145",
+   "barcode": "7290017617640",
    "name": "טונה בשמן סטארקיסט 9",
    "unit": "960",
    "brand": "סטארקיסט",
@@ -34587,8 +34618,44 @@
    }
   },
   {
+   "barcode": "7290017142180",
+   "name": "פילה טונה בשמן זית ו",
+   "unit": "120",
+   "brand": "יוניקורד ח.צ בע\"מ",
+   "category": "שמן",
+   "prices": {
+    "osherad_kiryat_ono": {
+     "price": 14.9,
+     "deal": {
+      "price": 12.5,
+      "terms": "פילה טונה  עץ הזית  2 ב 25",
+      "min_qty": 2,
+      "until": "2026-12-05"
+     }
+    }
+   }
+  },
+  {
    "barcode": "7290017142203",
    "name": "פילה טונה בשמן זית מ",
+   "unit": "120",
+   "brand": "יוניקורד ח.צ בע\"מ",
+   "category": "שמן",
+   "prices": {
+    "osherad_kiryat_ono": {
+     "price": 14.9,
+     "deal": {
+      "price": 12.5,
+      "terms": "פילה טונה  עץ הזית  2 ב 25",
+      "min_qty": 2,
+      "until": "2026-12-05"
+     }
+    }
+   }
+  },
+  {
+   "barcode": "7290017142166",
+   "name": "פילה טונה בשמן זית ע",
    "unit": "120",
    "brand": "יוניקורד ח.צ בע\"מ",
    "category": "שמן",
@@ -35245,6 +35312,19 @@
    "prices": {
     "yeshchesed": {
      "price": 35.9,
+     "deal": null
+    }
+   }
+  },
+  {
+   "barcode": "7290113196896",
+   "name": "תרסיס שמן זית שקדיה",
+   "unit": "170",
+   "brand": "שקדיה",
+   "category": "שמן",
+   "prices": {
+    "osherad_kiryat_ono": {
+     "price": 9.9,
      "deal": null
     }
    }
