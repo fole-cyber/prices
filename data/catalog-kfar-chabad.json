@@ -1,21 +1,21 @@
 {
  "collected": "2026-11-25",
- "updated_at": "2026-11-25T16:28+02:00",
+ "updated_at": "2026-11-25T20:08+02:00",
  "stores": {
   "osherad_lod": {
-   "updated": "2026-11-25T16:28+02:00",
+   "updated": "2026-11-25T20:08+02:00",
    "items_in_file": 6064,
    "deals_in_file": 3318,
    "matched_list": 989
   },
   "osherad_kiryat_ono": {
-   "updated": "2026-11-25T16:28+02:00",
+   "updated": "2026-11-25T20:08+02:00",
    "items_in_file": 6104,
    "deals_in_file": 3298,
    "matched_list": 970
   },
   "yeshchesed": {
-   "updated": "2026-11-25T16:28+02:00",
+   "updated": "2026-11-25T20:08+02:00",
    "items_in_file": 7838,
    "deals_in_file": 2394,
    "matched_list": 1178
